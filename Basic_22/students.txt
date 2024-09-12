@@ -1,0 +1,4 @@
+Riya,7,btech
+Pallabi,9,MBA
+tithi,5,HS
+Soma,4,MCA
