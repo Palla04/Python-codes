@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <style>
+        table { border-collapse: collapse; }
+        td { width: 50px; height: 50px; text-align: center; border: 1px solid black; font-size: 24px; cursor: pointer; }
+    </style>
+    <script>
+        function makeMove(row, col) {
+            fetch('/move', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ row: row, col: col })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'win') {
+                    alert(data.winner + ' wins!');
+                    location.reload();
+                } else if (data.status === 'draw') {
+                    alert('It\'s a draw!');
+                    location.reload();
+                } else if (data.status === 'invalid') {
+                    alert('Invalid move. Try again.');
+                } else {
+                    updateBoard(data.board);
+                }
+            });
+        }
+
+        function updateBoard(board) {
+            for (let i = 0; i < 3; i++) {
+                for (let j = 0; j < 3; j++) {
+                    document.getElementById('cell-' + i + '-' + j).innerText = board[i][j];
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <table>
+        {% for i in range(3) %}
+        <tr>
+            {% for j in range(3) %}
+            <td id="cell-{{i}}-{{j}}" onclick="makeMove({{i}}, {{j}})">{{ board[i][j] }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
