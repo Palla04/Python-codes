@@ -1,0 +1,5004 @@
+Step 1, Heuristic: 3
+1 2 3
+4 8 5
+7 0 6
+
+Step 2, Heuristic: 2
+1 2 3
+4 0 5
+7 8 6
+
+Step 3, Heuristic: 3
+1 0 3
+4 2 5
+7 8 6
+
+Step 4, Heuristic: 4
+0 1 3
+4 2 5
+7 8 6
+
+Step 5, Heuristic: 5
+4 1 3
+0 2 5
+7 8 6
+
+Step 6, Heuristic: 4
+0 1 3
+4 2 5
+7 8 6
+
+Step 7, Heuristic: 5
+4 1 3
+0 2 5
+7 8 6
+
+Step 8, Heuristic: 6
+4 1 3
+2 0 5
+7 8 6
+
+Step 9, Heuristic: 7
+4 0 3
+2 1 5
+7 8 6
+
+Step 10, Heuristic: 6
+4 1 3
+2 0 5
+7 8 6
+
+Step 11, Heuristic: 7
+4 1 3
+2 8 5
+7 0 6
+
+Step 12, Heuristic: 8
+4 1 3
+2 8 5
+0 7 6
+
+Step 13, Heuristic: 9
+4 1 3
+0 8 5
+2 7 6
+
+Step 14, Heuristic: 10
+4 1 3
+8 0 5
+2 7 6
+
+Step 15, Heuristic: 9
+4 1 3
+8 5 0
+2 7 6
+
+Step 16, Heuristic: 8
+4 1 3
+8 5 6
+2 7 0
+
+Step 17, Heuristic: 9
+4 1 3
+8 5 6
+2 0 7
+
+Step 18, Heuristic: 8
+4 1 3
+8 5 6
+2 7 0
+
+Step 19, Heuristic: 9
+4 1 3
+8 5 6
+2 0 7
+
+Step 20, Heuristic: 8
+4 1 3
+8 5 6
+2 7 0
+
+Step 21, Heuristic: 9
+4 1 3
+8 5 0
+2 7 6
+
+Step 22, Heuristic: 8
+4 1 3
+8 5 6
+2 7 0
+
+Step 23, Heuristic: 9
+4 1 3
+8 5 0
+2 7 6
+
+Step 24, Heuristic: 10
+4 1 3
+8 0 5
+2 7 6
+
+Step 25, Heuristic: 9
+4 1 3
+8 5 0
+2 7 6
+
+Step 26, Heuristic: 10
+4 1 3
+8 0 5
+2 7 6
+
+Step 27, Heuristic: 9
+4 1 3
+8 5 0
+2 7 6
+
+Step 28, Heuristic: 10
+4 1 3
+8 0 5
+2 7 6
+
+Step 29, Heuristic: 11
+4 1 3
+8 7 5
+2 0 6
+
+Step 30, Heuristic: 12
+4 1 3
+8 7 5
+2 6 0
+
+Step 31, Heuristic: 13
+4 1 3
+8 7 0
+2 6 5
+
+Step 32, Heuristic: 14
+4 1 3
+8 0 7
+2 6 5
+
+Step 33, Heuristic: 13
+4 1 3
+0 8 7
+2 6 5
+
+Step 34, Heuristic: 12
+4 1 3
+2 8 7
+0 6 5
+
+Step 35, Heuristic: 13
+4 1 3
+0 8 7
+2 6 5
+
+Step 36, Heuristic: 12
+4 1 3
+2 8 7
+0 6 5
+
+Step 37, Heuristic: 13
+4 1 3
+2 8 7
+6 0 5
+
+Step 38, Heuristic: 12
+4 1 3
+2 0 7
+6 8 5
+
+Step 39, Heuristic: 11
+4 1 3
+2 7 0
+6 8 5
+
+Step 40, Heuristic: 12
+4 1 3
+2 0 7
+6 8 5
+
+Step 41, Heuristic: 13
+4 0 3
+2 1 7
+6 8 5
+
+Step 42, Heuristic: 14
+0 4 3
+2 1 7
+6 8 5
+
+Step 43, Heuristic: 13
+2 4 3
+0 1 7
+6 8 5
+
+Step 44, Heuristic: 12
+2 4 3
+6 1 7
+0 8 5
+
+Step 45, Heuristic: 13
+2 4 3
+6 1 7
+8 0 5
+
+Step 46, Heuristic: 12
+2 4 3
+6 1 7
+0 8 5
+
+Step 47, Heuristic: 13
+2 4 3
+6 1 7
+8 0 5
+
+Step 48, Heuristic: 14
+2 4 3
+6 0 7
+8 1 5
+
+Step 49, Heuristic: 13
+2 4 3
+6 7 0
+8 1 5
+
+Step 50, Heuristic: 12
+2 4 3
+6 7 5
+8 1 0
+
+Step 51, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 52, Heuristic: 12
+2 4 3
+6 7 5
+8 1 0
+
+Step 53, Heuristic: 13
+2 4 3
+6 7 0
+8 1 5
+
+Step 54, Heuristic: 12
+2 4 3
+6 7 5
+8 1 0
+
+Step 55, Heuristic: 13
+2 4 3
+6 7 0
+8 1 5
+
+Step 56, Heuristic: 12
+2 4 3
+6 7 5
+8 1 0
+
+Step 57, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 58, Heuristic: 12
+2 4 3
+6 7 5
+0 8 1
+
+Step 59, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 60, Heuristic: 12
+2 4 3
+6 0 5
+8 7 1
+
+Step 61, Heuristic: 11
+2 4 3
+6 5 0
+8 7 1
+
+Step 62, Heuristic: 12
+2 4 3
+6 0 5
+8 7 1
+
+Step 63, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 64, Heuristic: 12
+2 4 3
+6 7 5
+8 1 0
+
+Step 65, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 66, Heuristic: 12
+2 4 3
+6 7 5
+8 1 0
+
+Step 67, Heuristic: 13
+2 4 3
+6 7 0
+8 1 5
+
+Step 68, Heuristic: 12
+2 4 3
+6 7 5
+8 1 0
+
+Step 69, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 70, Heuristic: 12
+2 4 3
+6 0 5
+8 7 1
+
+Step 71, Heuristic: 11
+2 0 3
+6 4 5
+8 7 1
+
+Step 72, Heuristic: 12
+2 4 3
+6 0 5
+8 7 1
+
+Step 73, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 74, Heuristic: 12
+2 4 3
+6 7 5
+0 8 1
+
+Step 75, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 76, Heuristic: 12
+2 4 3
+6 7 5
+0 8 1
+
+Step 77, Heuristic: 13
+2 4 3
+0 7 5
+6 8 1
+
+Step 78, Heuristic: 12
+2 4 3
+6 7 5
+0 8 1
+
+Step 79, Heuristic: 13
+2 4 3
+6 7 5
+8 0 1
+
+Step 80, Heuristic: 12
+2 4 3
+6 7 5
+0 8 1
+
+Step 81, Heuristic: 13
+2 4 3
+0 7 5
+6 8 1
+
+Step 82, Heuristic: 12
+2 4 3
+7 0 5
+6 8 1
+
+Step 83, Heuristic: 13
+2 4 3
+0 7 5
+6 8 1
+
+Step 84, Heuristic: 14
+0 4 3
+2 7 5
+6 8 1
+
+Step 85, Heuristic: 13
+2 4 3
+0 7 5
+6 8 1
+
+Step 86, Heuristic: 14
+0 4 3
+2 7 5
+6 8 1
+
+Step 87, Heuristic: 13
+4 0 3
+2 7 5
+6 8 1
+
+Step 88, Heuristic: 14
+0 4 3
+2 7 5
+6 8 1
+
+Step 89, Heuristic: 13
+4 0 3
+2 7 5
+6 8 1
+
+Step 90, Heuristic: 14
+4 7 3
+2 0 5
+6 8 1
+
+Step 91, Heuristic: 13
+4 7 3
+2 5 0
+6 8 1
+
+Step 92, Heuristic: 14
+4 7 3
+2 0 5
+6 8 1
+
+Step 93, Heuristic: 14
+4 7 3
+2 0 5
+6 8 1
+
+Step 94, Heuristic: 13
+4 7 3
+0 2 5
+6 8 1
+
+Step 95, Heuristic: 14
+4 7 3
+2 0 5
+6 8 1
+
+Step 96, Heuristic: 13
+4 7 3
+0 2 5
+6 8 1
+
+Step 97, Heuristic: 12
+0 7 3
+4 2 5
+6 8 1
+
+Step 98, Heuristic: 13
+4 7 3
+0 2 5
+6 8 1
+
+Step 99, Heuristic: 14
+4 7 3
+2 0 5
+6 8 1
+
+Step 100, Heuristic: 13
+4 7 3
+2 5 0
+6 8 1
+
+Step 101, Heuristic: 14
+4 7 3
+2 0 5
+6 8 1
+
+Step 102, Heuristic: 13
+4 0 3
+2 7 5
+6 8 1
+
+Step 103, Heuristic: 13
+4 0 3
+2 7 5
+6 8 1
+
+Step 104, Heuristic: 14
+0 4 3
+2 7 5
+6 8 1
+
+Step 105, Heuristic: 13
+4 0 3
+2 7 5
+6 8 1
+
+Step 106, Heuristic: 13
+4 0 3
+2 7 5
+6 8 1
+
+Step 107, Heuristic: 14
+0 4 3
+2 7 5
+6 8 1
+
+Step 108, Heuristic: 13
+2 4 3
+0 7 5
+6 8 1
+
+Step 109, Heuristic: 12
+2 4 3
+7 0 5
+6 8 1
+
+Step 110, Heuristic: 11
+2 0 3
+7 4 5
+6 8 1
+
+Step 111, Heuristic: 10
+0 2 3
+7 4 5
+6 8 1
+
+Step 112, Heuristic: 11
+7 2 3
+0 4 5
+6 8 1
+
+Step 113, Heuristic: 10
+7 2 3
+4 0 5
+6 8 1
+
+Step 114, Heuristic: 11
+7 2 3
+4 8 5
+6 0 1
+
+Step 115, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 116, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 117, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 118, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 119, Heuristic: 13
+7 0 2
+4 8 3
+6 1 5
+
+Step 120, Heuristic: 13
+7 0 2
+4 8 3
+6 1 5
+
+Step 121, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 122, Heuristic: 13
+7 0 2
+4 8 3
+6 1 5
+
+Step 123, Heuristic: 13
+7 0 2
+4 8 3
+6 1 5
+
+Step 124, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 125, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 126, Heuristic: 13
+7 0 2
+4 8 3
+6 1 5
+
+Step 127, Heuristic: 13
+7 0 2
+4 8 3
+6 1 5
+
+Step 128, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 129, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 130, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 131, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 132, Heuristic: 12
+7 2 0
+4 8 3
+6 1 5
+
+Step 133, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 134, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 135, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 136, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 137, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 138, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 139, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 140, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 141, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 142, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 143, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 144, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 145, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 146, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 147, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 148, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 149, Heuristic: 12
+7 2 3
+4 0 8
+6 1 5
+
+Step 150, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 151, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 152, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 153, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 154, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 155, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 156, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 157, Heuristic: 11
+7 2 3
+4 8 0
+6 1 5
+
+Step 158, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 159, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 160, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 161, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 162, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 163, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 164, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 165, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 166, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 167, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 168, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 169, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 170, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 171, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 172, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 173, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 174, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 175, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 176, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 177, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 178, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 179, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 180, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 181, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 182, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 183, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 184, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 185, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 186, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 187, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 188, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 189, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 190, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 191, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 192, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 193, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 194, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 195, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 196, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 197, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 198, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 199, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 200, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 201, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 202, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 203, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 204, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 205, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 206, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 207, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 208, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 209, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 210, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 211, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 212, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 213, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 214, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 215, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 216, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 217, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 218, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 219, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 220, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 221, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 222, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 223, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 224, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 225, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 226, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 227, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 228, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 229, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 230, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 231, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 232, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 233, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 234, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 235, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 236, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 237, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 238, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 239, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 240, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 241, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 242, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 243, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 244, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 245, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 246, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 247, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 248, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 249, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 250, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 251, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 252, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 253, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 254, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 255, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 256, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 257, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 258, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 259, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 260, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 261, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 262, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 263, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 264, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 265, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 266, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 267, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 268, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 269, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 270, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 271, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 272, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 273, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 274, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 275, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 276, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 277, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 278, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 279, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 280, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 281, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 282, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 283, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 284, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 285, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 286, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 287, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 288, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 289, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 290, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 291, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 292, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 293, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 294, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 295, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 296, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 297, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 298, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 299, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 300, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 301, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 302, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 303, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 304, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 305, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 306, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 307, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 308, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 309, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 310, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 311, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 312, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 313, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 314, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 315, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 316, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 317, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 318, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 319, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 320, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 321, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 322, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 323, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 324, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 325, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 326, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 327, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 328, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 329, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 330, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 331, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 332, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 333, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 334, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 335, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 336, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 337, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 338, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 339, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 340, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 341, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 342, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 343, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 344, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 345, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 346, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 347, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 348, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 349, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 350, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 351, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 352, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 353, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 354, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 355, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 356, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 357, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 358, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 359, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 360, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 361, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 362, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 363, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 364, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 365, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 366, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 367, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 368, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 369, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 370, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 371, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 372, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 373, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 374, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 375, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 376, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 377, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 378, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 379, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 380, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 381, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 382, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 383, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 384, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 385, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 386, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 387, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 388, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 389, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 390, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 391, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 392, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 393, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 394, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 395, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 396, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 397, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 398, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 399, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 400, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 401, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 402, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 403, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 404, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 405, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 406, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 407, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 408, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 409, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 410, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 411, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 412, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 413, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 414, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 415, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 416, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 417, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 418, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 419, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 420, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 421, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 422, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 423, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 424, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 425, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 426, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 427, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 428, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 429, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 430, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 431, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 432, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 433, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 434, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 435, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 436, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 437, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 438, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 439, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 440, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 441, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 442, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 443, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 444, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 445, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 446, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 447, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 448, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 449, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 450, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 451, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 452, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 453, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 454, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 455, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 456, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 457, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 458, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 459, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 460, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 461, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 462, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 463, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 464, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 465, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 466, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 467, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 468, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 469, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 470, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 471, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 472, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 473, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 474, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 475, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 476, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 477, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 478, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 479, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 480, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 481, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 482, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 483, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 484, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 485, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 486, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 487, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 488, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 489, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 490, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 491, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 492, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 493, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 494, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 495, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 496, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 497, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 498, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 499, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 500, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 501, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 502, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 503, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 504, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 505, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 506, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 507, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 508, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 509, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 510, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 511, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 512, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 513, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 514, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 515, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 516, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 517, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 518, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 519, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 520, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 521, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 522, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 523, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 524, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 525, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 526, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 527, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 528, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 529, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 530, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 531, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 532, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 533, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 534, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 535, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 536, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 537, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 538, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 539, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 540, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 541, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 542, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 543, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 544, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 545, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 546, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 547, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 548, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 549, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 550, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 551, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 552, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 553, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 554, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 555, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 556, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 557, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 558, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 559, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 560, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 561, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 562, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 563, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 564, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 565, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 566, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 567, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 568, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 569, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 570, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 571, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 572, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 573, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 574, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 575, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 576, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 577, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 578, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 579, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 580, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 581, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 582, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 583, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 584, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 585, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 586, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 587, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 588, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 589, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 590, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 591, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 592, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 593, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 594, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 595, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 596, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 597, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 598, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 599, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 600, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 601, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 602, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 603, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 604, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 605, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 606, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 607, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 608, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 609, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 610, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 611, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 612, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 613, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 614, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 615, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 616, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 617, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 618, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 619, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 620, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 621, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 622, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 623, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 624, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 625, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 626, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 627, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 628, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 629, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 630, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 631, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 632, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 633, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 634, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 635, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 636, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 637, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 638, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 639, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 640, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 641, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 642, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 643, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 644, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 645, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 646, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 647, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 648, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 649, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 650, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 651, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 652, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 653, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 654, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 655, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 656, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 657, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 658, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 659, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 660, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 661, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 662, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 663, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 664, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 665, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 666, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 667, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 668, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 669, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 670, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 671, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 672, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 673, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 674, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 675, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 676, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 677, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 678, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 679, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 680, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 681, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 682, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 683, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 684, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 685, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 686, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 687, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 688, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 689, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 690, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 691, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 692, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 693, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 694, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 695, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 696, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 697, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 698, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 699, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 700, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 701, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 702, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 703, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 704, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 705, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 706, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 707, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 708, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 709, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 710, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 711, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 712, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 713, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 714, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 715, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 716, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 717, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 718, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 719, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 720, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 721, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 722, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 723, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 724, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 725, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 726, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 727, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 728, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 729, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 730, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 731, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 732, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 733, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 734, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 735, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 736, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 737, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 738, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 739, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 740, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 741, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 742, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 743, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 744, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 745, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 746, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 747, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 748, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 749, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 750, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 751, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 752, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 753, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 754, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 755, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 756, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 757, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 758, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 759, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 760, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 761, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 762, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 763, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 764, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 765, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 766, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 767, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 768, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 769, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 770, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 771, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 772, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 773, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 774, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 775, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 776, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 777, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 778, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 779, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 780, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 781, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 782, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 783, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 784, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 785, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 786, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 787, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 788, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 789, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 790, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 791, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 792, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 793, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 794, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 795, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 796, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 797, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 798, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 799, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 800, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 801, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 802, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 803, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 804, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 805, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 806, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 807, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 808, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 809, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 810, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 811, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 812, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 813, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 814, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 815, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 816, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 817, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 818, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 819, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 820, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 821, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 822, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 823, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 824, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 825, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 826, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 827, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 828, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 829, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 830, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 831, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 832, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 833, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 834, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 835, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 836, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 837, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 838, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 839, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 840, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 841, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 842, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 843, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 844, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 845, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 846, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 847, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 848, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 849, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 850, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 851, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 852, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 853, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 854, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 855, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 856, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 857, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 858, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 859, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 860, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 861, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 862, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 863, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 864, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 865, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 866, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 867, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 868, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 869, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 870, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 871, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 872, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 873, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 874, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 875, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 876, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 877, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 878, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 879, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 880, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 881, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 882, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 883, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 884, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 885, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 886, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 887, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 888, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 889, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 890, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 891, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 892, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 893, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 894, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 895, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 896, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 897, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 898, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 899, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 900, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 901, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 902, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 903, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 904, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 905, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 906, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 907, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 908, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 909, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 910, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 911, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 912, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 913, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 914, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 915, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 916, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 917, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 918, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 919, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 920, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 921, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 922, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 923, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 924, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 925, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 926, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 927, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 928, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 929, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 930, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 931, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 932, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 933, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 934, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 935, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 936, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 937, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 938, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 939, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 940, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 941, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 942, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 943, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 944, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 945, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 946, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 947, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 948, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 949, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 950, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 951, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 952, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 953, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 954, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 955, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 956, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 957, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 958, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 959, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 960, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 961, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 962, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 963, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 964, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 965, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 966, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 967, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 968, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 969, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 970, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 971, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 972, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 973, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 974, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 975, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 976, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 977, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 978, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 979, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 980, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 981, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 982, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 983, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 984, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 985, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 986, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 987, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 988, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 989, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 990, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 991, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 992, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 993, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 994, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 995, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 996, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 997, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 998, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 999, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Step 1000, Heuristic: 10
+7 2 3
+4 8 5
+6 1 0
+
+Final state:
+7 2 3
+4 8 5
+6 1 0
