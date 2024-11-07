@@ -4,7 +4,6 @@ def dijkstra(graph, source, destination, V):
     # Initialize distances with infinity for all vertices except the source
     distances = {i: float('inf') for i in range(V)}
     distances[source] = 0
-
     # Priority queue to keep track of the shortest distance node
     priority_queue = [(0, source)]  # (distance, vertex)
 
