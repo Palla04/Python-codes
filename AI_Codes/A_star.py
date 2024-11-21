@@ -1,115 +1,78 @@
-import time
-from queue import PriorityQueue
+import heapq
 
-def a_star_algorithm(graph, start, goal, h):
-    """
-    Implements the A* algorithm to find the shortest path in a graph.
-    
-    Parameters:
-    - graph: A dictionary where keys are node names, and values are dictionaries of neighboring nodes and edge costs.
-    - start: The starting node.
-    - goal: The goal node.
-    - h: A heuristic function that estimates the cost from a node to the goal.
-    
-    Returns:
-    - path: A list of nodes representing the shortest path from start to goal.
-    - total_cost: The total cost of the shortest path.
-    - states_explored: Number of states explored during the search.
-    """
-    open_list = PriorityQueue()
-    open_list.put((0, start))
-    came_from = {start: None}
-    g_score = {start: 0}
-    states_explored = 0
+def a_star(graph, heuristic, start, goal):
+    # Priority queue to store nodes with their cost (f = g + h)
+    open_set = [(0, start)]
+    # Store the cost of reaching each node
+    g_cost = {node: float('inf') for node in graph}
+    g_cost[start] = 0
+    # Store the path
+    came_from = {}
 
-    while not open_list.empty():
-        current_priority, current_node = open_list.get()
-        states_explored += 1
+    while open_set:
+        # Get the node with the lowest f value
+        _, current = heapq.heappop(open_set)
 
-        if current_node == goal:
+        if current == goal:
+            # Reconstruct the path from start to goal
             path = []
-            while current_node is not None:
-                path.append(current_node)
-                current_node = came_from[current_node]
-            return path[::-1], g_score[goal], states_explored
+            while current in came_from:
+                path.append(current)
+                current = came_from[current]
+            path.append(start)
+            print(f"Shortest path: {' -> '.join(reversed(path))}")
+            print(f"Total cost: {g_cost[goal]}")
+            return
 
-        for neighbor, cost in graph[current_node].items():
-            tentative_g_score = g_score[current_node] + cost
+        # Explore neighbors
+        for neighbor, weight in graph[current].items():
+            tentative_g_cost = g_cost[current] + weight
 
-            if neighbor not in g_score or tentative_g_score < g_score[neighbor]:
-                came_from[neighbor] = current_node
-                g_score[neighbor] = tentative_g_score
-                f_score = tentative_g_score + h(neighbor, goal)
-                open_list.put((f_score, neighbor))
+            if tentative_g_cost < g_cost[neighbor]:
+                g_cost[neighbor] = tentative_g_cost
+                f_cost = tentative_g_cost + heuristic[neighbor]
+                heapq.heappush(open_set, (f_cost, neighbor))
+                came_from[neighbor] = current
 
-    return None, float('inf'), states_explored
+    print(f"No path found from {start} to {goal}.")
 
-def heuristic(node, goal):
-    # Simple heuristic; could be adjusted based on problem specifics.
-    return 0
-
-def read_graph_from_file(input_filename):
-    """
-    Reads the graph structure, start, and goal nodes from an input file.
-    
-    Returns:
-    - graph: A dictionary representing the graph.
-    - start: Start node.
-    - goal: Goal node.
-    """
+# Input helper function
+def get_graph_and_heuristics():
+    # Create an empty graph
     graph = {}
-    with open(input_filename, 'r') as f:
-        start = f.readline().strip().split(":")[1].strip()
-        goal = f.readline().strip().split(":")[1].strip()
-        
-        # Read graph edges from file
-        for line in f:
-            node1, node2, cost = line.split()
-            cost = int(cost)
-            if node1 not in graph:
-                graph[node1] = {}
-            if node2 not in graph:
-                graph[node2] = {}
-            graph[node1][node2] = cost
-            graph[node2][node1] = cost
-    return graph, start, goal
+    heuristic = {}
 
-def write_output_to_file(output_filename, path, total_cost, states_explored, time_taken, success, start, goal, heuristic_name="None"):
-    """
-    Writes results to an output file, including success or failure, path details, and search metrics.
-    """
-    with open(output_filename, 'w') as f:
-        if success:
-            f.write("Success: Path found\n")
-            f.write(f"Heuristic: {heuristic_name}\n")
-            f.write(f"Start state: {start}\n")
-            f.write(f"Goal state: {goal}\n")
-            f.write(f"Optimal path: {' -> '.join(path)}\n")
-            f.write(f"Total cost of the path: {total_cost}\n")
-        else:
-            f.write("Failure: No path found\n")
-        f.write(f"Total number of states explored: {states_explored}\n")
-        f.write(f"Total time taken: {time_taken:.4f} seconds\n")
+    # Number of nodes
+    num_nodes = int(input("Enter the number of nodes: "))
+    print("Enter the nodes:")
+    nodes = [input().strip() for _ in range(num_nodes)]
 
-def main(input_filename, output_filename):
-    # Read the graph and nodes from input file
-    graph, start, goal = read_graph_from_file(input_filename)
+    for node in nodes:
+        graph[node] = {}
 
-    # Start the A* algorithm
-    start_time = time.time()
-    path, cost, states_explored = a_star_algorithm(graph, start, goal, heuristic)
-    end_time = time.time()
-    time_taken = end_time - start_time
+    # Number of edges
+    num_edges = int(input("Enter the number of edges: "))
+    print("Enter the edges (start end cost):")
+    for _ in range(num_edges):
+        u, v, cost = input().split()
+        cost = int(cost)
+        graph[u][v] = cost
+        graph[v][u] = cost  # For undirected graph; remove this for directed graph
 
-    # Check if the algorithm found a path
-    success = path is not None and cost != float('inf')
+    # Heuristic values
+    print("Enter heuristic values for each node (node value):")
+    for node in nodes:
+        heuristic[node] = int(input(f"{node}: "))
 
-    # Write the output to the specified file
-    write_output_to_file(output_filename, path if success else [], cost, states_explored, time_taken, success, start, goal, heuristic_name="Simple Heuristic")
+    return graph, heuristic
 
-# Specify input and output file names
-input_filename = "input.txt"
-output_filename = "output.txt"
+if __name__ == "__main__":
+    # Get the graph and heuristics from the user
+    graph, heuristic = get_graph_and_heuristics()
 
-# Run the program
-main(input_filename, output_filename)
+    # Input start and goal nodes
+    start = input("Enter the start node: ").strip()
+    goal = input("Enter the goal node: ").strip()
+
+    # Run the A* algorithm
+    a_star(graph, heuristic, start, goal)

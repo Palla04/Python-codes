@@ -1,66 +1,43 @@
-def dfs_visit(u, G, color, p, D, F, time):
-    color[u] = 'g'
+def dfs_visit(graph, u, color, discovery, finish, parent, time):
+    print(f"Visited: {u}")
+    color[u] = 'g'  # Gray: visiting
+    discovery[u] = time[0]
     time[0] += 1
-    D[u] = time[0]
     
-    for i in range(len(G)):
-        if G[u][i] == 1 and color[i] == 'w':
-            p[i] = u
-            dfs_visit(i, G, color, p, D, F, time)
+    for v in range(len(graph)):
+        if graph[u][v] == 1 and color[v] == 'w':  # White: unvisited
+            parent[v] = u
+            dfs_visit(graph, v, color, discovery, finish, parent, time)
     
-    color[u] = 'b'
+    color[u] = 'b'  # Black: fully explored
+    finish[u] = time[0]
     time[0] += 1
-    F[u] = time[0]
 
-
-def dfs(G, n, start, goal, node_mapping, output_filename):
-    color, p, D, F, time = ['w'] * n, [None] * n, [0] * n, [0] * n, [0]
-    dfs_visit(node_mapping[start], G, color, p, D, F, time)
+def dfs(graph, n):
+    color = ['w'] * n  # All vertices initially white
+    parent = [None] * n
+    discovery = [-1] * n
+    finish = [-1] * n
+    time = [0]  # Shared mutable time counter
     
-    path = []
-    current = node_mapping[goal]
-    while current is not None:
-        path.append(current)
-        current = p[current]
-    path.reverse()
+    for u in range(n):
+        if color[u] == 'w':  # Start DFS from unvisited node
+            dfs_visit(graph, u, color, discovery, finish, parent, time)
     
-    with open(output_filename, 'w') as f:
-        if path and path[0] == node_mapping[start]:
-            f.write(f"Success: Path found.\nStart: {start}, Goal: {goal}\nOptimal Path: {' -> '.join([list(node_mapping.keys())[list(node_mapping.values()).index(i)] for i in path])}\n")
-        else:
-            f.write("Failure: No path found.\n")
-        for i in range(n):
-            f.write(f"Vertex: {i + 1} | Discovery time: {D[i]} | Finishing time: {F[i]} | Parent: {p[i]}\n")
-
-
-def read_graph_from_file(input_filename):
-    with open(input_filename, 'r') as f:
-        lines = f.readlines()
+    # Print results
+    for u in range(n):
+        print(f"Vertex: {u}, Discovery time: {discovery[u]}, Finish time: {finish[u]}, Color: {color[u]}, Parent: {parent[u]}")
     
-    start = lines[0].split(":")[1].strip()
-    goal = lines[1].split(":")[1].strip()
-    
-    edges = [line.strip().split() for line in lines[2:]]
-    nodes = set([node for edge in edges for node in edge])
-    node_mapping = {node: i for i, node in enumerate(sorted(nodes))}
-    n = len(nodes)
-    
-    G = [[0] * n for _ in range(n)]
-    for u, v in edges:
-        G[node_mapping[u]][node_mapping[v]] = 1
-    
-    return G, node_mapping, start, goal
-
-
-def main():
-    input_filename = "input.txt"
-    output_filename = "output.txt"
-    
-    G, node_mapping, start, goal = read_graph_from_file(input_filename)
-    
-    dfs(G, len(node_mapping), start, goal, node_mapping, output_filename)
-    print("Results written to", output_filename)
-
-
+# Main function
 if __name__ == "__main__":
-    main()
+    n = int(input("Enter number of vertices: "))
+    e = int(input("Enter the number of edges: "))
+    
+    # Initialize adjacency matrix
+    graph = [[0 for _ in range(n)] for _ in range(n)]
+    
+    for _ in range(e):
+        u, v = map(int, input("Enter the edge (u v): ").split())
+        graph[u][v] = 1  # Assuming a directed graph
+    
+    dfs(graph, n)
