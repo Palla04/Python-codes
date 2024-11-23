@@ -3,18 +3,28 @@ import random
 goal_state = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
 
 def heuristic_h1(state):
-    return sum(1 for i in range(3) for j in range(3) if state[i][j] != 0 and state[i][j] != goal_state[i][j])
-
-def heuristic_h2(state):
-    manhattan_distance = 0
+    """Heuristic 1: Count of misplaced tiles."""
+    misplaced = 0
     for i in range(3):
         for j in range(3):
-            if state[i][j] != 0:
-                goal_x, goal_y = divmod(state[i][j] - 1, 3)
-                manhattan_distance += abs(goal_x - i) + abs(goal_y - j)
-    return manhattan_distance
+            if state[i][j] != goal_state[i][j] and state[i][j] != 0:
+                misplaced += 1
+    return misplaced
+
+
+def heuristic_h2(state):
+    """Heuristic 2: Sum of Manhattan distances."""
+    total_distance = 0
+    for i in range(3):
+        for j in range(3):
+            value = state[i][j]
+            if value != 0:
+                goal_x, goal_y = (value - 1) // 3, (value - 1) % 3
+                total_distance += abs(i - goal_x) + abs(j - goal_y)
+    return total_distance
 
 def find_blank(state):
+    """Find the position of the blank tile (0)."""
     for i in range(3):
         for j in range(3):
             if state[i][j] == 0:
@@ -22,6 +32,7 @@ def find_blank(state):
     return None
 
 def generate_moves(state):
+    """Generate all possible moves for the blank tile."""
     blank_x, blank_y = find_blank(state)
     moves = []
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
@@ -33,15 +44,14 @@ def generate_moves(state):
             moves.append(new_state)
     return moves
 
-def is_goal(state):
-    return state == goal_state
-
 def generate_random_state():
+    """Generate a random initial state."""
     flat_state = list(range(9))
     random.shuffle(flat_state)
     return [flat_state[i:i + 3] for i in range(0, 9, 3)]
 
 def hill_climbing(start_state, heuristic, max_restarts=5):
+    """Hill climbing algorithm with restarts."""
     output_lines = []
     for restart in range(max_restarts):
         current_state = start_state
@@ -64,7 +74,7 @@ def hill_climbing(start_state, heuristic, max_restarts=5):
             output_lines.append("")
 
             if next_heuristic >= current_heuristic:
-                if is_goal(current_state):
+                if current_state==goal_state:
                     output_lines.append("Goal reached!")
                     return output_lines
                 break
@@ -77,26 +87,23 @@ def hill_climbing(start_state, heuristic, max_restarts=5):
 
     return output_lines
 
-def get_initial_state(input_filename):
-    with open(input_filename, 'r') as f:
-        lines = f.readlines()
-    return [list(map(int, line.split())) for line in lines]
 
 def main():
-    input_filename = "input.txt"
-    output_filename = "output.txt"
-
-    heuristic_choice = input("Choose heuristic (h1 for misplaced tiles, h2 for Manhattan distance): ")
+    heuristic_choice = input("Choose heuristic (h1 for misplaced tiles, h2 for Manhattan distance): ").strip()
     heuristic = heuristic_h1 if heuristic_choice == "h1" else heuristic_h2
 
-    start_state = get_initial_state(input_filename)
+    print("Enter the puzzle row wise: ")
+    start_state=[]
+    for i in range(3):
+        row = list(map(int,input().split()))
+        start_state.append(row)
+            
     output_lines = hill_climbing(start_state, heuristic)
 
-    with open(output_filename, 'w') as f:
-        f.write('\n'.join(output_lines))
-        f.write("\nFinal state:\n")
-        for row in start_state:
-            f.write(' '.join(map(str, row)) + "\n")
+    print("\n".join(output_lines))
+    print("Final state:")
+    for row in start_state:
+        print(*row)
 
 if __name__ == "__main__":
     main()

@@ -56,7 +56,7 @@ def simulated_annealing(start_state, max_iterations=1000, temp=1000, cooling_rat
 
         # Log the current state and heuristic
         output_lines.append(f"Step {i + 1}, Heuristic: {current_heuristic}")
-        output_lines.append('\n'.join([' '.join(map(str, row)) for row in current_state]))
+        output_lines.append('\n'.join(' '.join(map(str, row)) for row in current_state))
         output_lines.append("")  # Add a blank line for readability
 
         # Cool down the temperature
@@ -69,23 +69,17 @@ def simulated_annealing(start_state, max_iterations=1000, temp=1000, cooling_rat
 
     return output_lines
 
-# Read the initial state from the input file
-def read_initial_state(input_filename):
-    with open(input_filename, 'r') as f:
-        lines = f.readlines()
-    initial_state = [list(map(int, line.strip().split())) for line in lines if line.strip()]
-    return initial_state
-
 # Main function to run the algorithm
 def main():
-    input_filename = "input.txt"
-    output_filename = "output.txt"
+    print("Enter the initial state of the puzzle row by row (use 0 for the blank tile):")
+    initial_state = []
+    for _ in range(3):
+        row = list(map(int, input().strip().split()))
+        initial_state.append(row)
 
-    initial_state = read_initial_state(input_filename)
     final_output = simulated_annealing(initial_state)
 
-    with open(output_filename, 'w') as f:
-        f.write('\n'.join(final_output))
+    print("\n".join(final_output))
 
 if __name__ == "__main__":
     main()
